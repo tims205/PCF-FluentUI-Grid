@@ -1,0 +1,19 @@
+2020-12-01 16:25:09.177 - Info	
+Packing C:\Users\TSturgeon\source\repos\PCFComponents\FluentUIAppointmentPicker\FluentUIAppointmentPicker\Solutions\obj\Release\Metadata to bin\Release\Solutions.zip
+
+2020-12-01 16:25:09.188 - Info	Processing Component: Entities
+2020-12-01 16:25:09.190 - Info	Processing Component: Roles
+2020-12-01 16:25:09.194 - Info	Processing Component: Workflows
+2020-12-01 16:25:09.194 - Info	Processing Component: FieldSecurityProfiles
+2020-12-01 16:25:09.194 - Info	Processing Component: Templates
+2020-12-01 16:25:09.195 - Info	Processing Component: EntityMaps
+2020-12-01 16:25:09.195 - Info	Processing Component: EntityRelationships
+2020-12-01 16:25:09.200 - Info	Processing Component: OrganizationSettings
+2020-12-01 16:25:09.200 - Info	Processing Component: optionsets
+2020-12-01 16:25:09.200 - Info	Processing Component: CustomControls
+2020-12-01 16:25:09.210 - Info	 - Tim.FluentUIAppointmentPicker
+2020-12-01 16:25:09.369 - Info	Processing Component: SolutionPluginAssemblies
+2020-12-01 16:25:09.370 - Info	Processing Component: EntityDataProviders
+2020-12-01 16:25:09.428 - Info	
+Managed Pack complete.
+
