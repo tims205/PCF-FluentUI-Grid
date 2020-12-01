@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="Tim" constructor="FluentUIAppointmentPicker" version="0.0.69" display-name-key="FluentUIAppointmentPicker" description-key="Custom Grid Component" control-type="standard">
+  <control namespace="Tim" constructor="FluentUIAppointmentPicker" version="0.0.7" display-name-key="FluentUIAppointmentPicker" description-key="Appointment Picker" control-type="standard">
      <type-group name="supporteddatefields">
       <type>DateAndTime.DateAndTime</type>
       <type>DateAndTime.DateOnly</type>
       </type-group>
-    <data-set name="gridDataSet" display-name-key="Dataset_Display_Key">
+    <!--<property name="siteLookupAttribute" display-name-key="Site Lookup Attribute" description-key="The schema name of the attribute on Appointment Slot that links to Site" of-type="SingleLine.Text" usage="input" required="true" /> -->
+    <data-set name="gridDataSet" display-name-key="Appointment_Slots" description-key="The dataset that will be shown in the view. This would typically be a list of available appointment slots.">
       <property-set name="gridFilterByDate" display-name-key="Filter_by_date_column" description-key="A date column that can be filtered on" of-type-group="supporteddatefields" usage="input" required="true" />
     </data-set>
     <data-set name="sitesDataSet" display-name-key="Sites_Display_Key">
-      <property-set name="siteDropdownDisplayValue" display-name-key="Site_Dropdown_Display_Key" description-key="The name of the attribute that will be shown in the sitesDataSet drop down" of-type="SingleLine.Text" usage="input" required="true" />
+      <property-set name="siteDropdownDisplayValue" display-name-key="Site_Dropdown_Options" description-key="The name of the attribute that will be shown in the sitesDataSet drop down" of-type="SingleLine.Text" usage="input" required="true" />
     </data-set>
     <resources>
       <code path="index.ts" order="1"/>
